@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Pengisian Forms -->
+    <form action="action_page.php" method="get">
+
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" placeholder="Netsh" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" placeholder="Natsu" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass" required maxlength="12">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Ucok@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="+1 234 567 890" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" name="bdate" id="bdate" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" name="jumlah" id="jumlah" min="0" max="100" value="1">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="tier">Tier: </label>
+
+            <label>Noob</label>
+            <input type="radio" name="tier" value="Noob">
+
+            <label>Pro</label>
+            <input type="radio" name="tier" value="Pro">
+
+            <label>Legend</label>
+            <input type="radio" name="tier" value="Legend">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="payment">Payment:</label>
+            <select name="payment" id="payment">
+                <option value="QR">Qr Code</option>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Gpay">Google Pay</option>
+            </select>
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="subscribe">Subscribe</label>
+            <input type="checkbox" name="payment" id="subscribe">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+</body>
+</html>
